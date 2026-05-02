@@ -1,0 +1,50 @@
+
+Running 1 test using 1 worker
+
+  ✘  1 [chromium] › tests/t2b-smoke.spec.ts:37:7 › T2b UI Parity — 7-Gate Smoke Flow › G1 → G7: Complete user flow (register, login, create, view, favorite, logout) (11.3s)
+
+
+  1) [chromium] › tests/t2b-smoke.spec.ts:37:7 › T2b UI Parity — 7-Gate Smoke Flow › G1 → G7: Complete user flow (register, login, create, view, favorite, logout) › G2: Register new user 
+
+    Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+    Expected: [32m"http://localhost:4100/"[39m
+    Received: [31m"http://localhost:4100/[7msettings[27m"[39m
+    Timeout:  10000ms
+
+    Call log:
+    [2m  - Expect "toHaveURL" with timeout 10000ms[22m
+    [2m    2 × unexpected value "http://localhost:4100/register"[22m
+    [2m    12 × unexpected value "http://localhost:4100/settings"[22m
+
+
+      73 |       
+      74 |       // Should redirect to home page with user logged in
+    > 75 |       await expect(page).toHaveURL('/', { timeout: 10000 });
+         |                          ^
+      76 |       
+      77 |       // Verify username appears in header (indicates successful registration + auto-login)
+      78 |       const userLink = page.getByRole('link', { name: testUser.username }).first();
+        at /Users/carloshm/personal-projects/intentional/realworld/parity-ui/tests/t2b-smoke.spec.ts:75:26
+        at /Users/carloshm/personal-projects/intentional/realworld/parity-ui/tests/t2b-smoke.spec.ts:61:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/t2b-smoke-T2b-UI-Parity-—--617aa-reate-view-favorite-logout--chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/t2b-smoke-T2b-UI-Parity-—--617aa-reate-view-favorite-logout--chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/t2b-smoke-T2b-UI-Parity-—--617aa-reate-view-favorite-logout--chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/t2b-smoke-T2b-UI-Parity-—--617aa-reate-view-favorite-logout--chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/t2b-smoke-T2b-UI-Parity-—--617aa-reate-view-favorite-logout--chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/t2b-smoke.spec.ts:37:7 › T2b UI Parity — 7-Gate Smoke Flow › G1 → G7: Complete user flow (register, login, create, view, favorite, logout) 

@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "profile": "app/react-spa",
+  "generatedAt": "2026-05-01T11:49:38.612Z",
+  "workbench": {
+    "version": "0.1.0",
+    "commit": "f2b5f44c1133560d9e119f4b2147f1aec30b9c07"
+  },
+  "source": {
+    "target": "../realworld-idl/idl",
+    "files": [
+      {
+        "path": "../realworld-idl/idl/domain/articles.idl",
+        "sha256": "9f821410adcc3484f5b0e3d45432f1b102c3773554f942a065a06804a3fff956"
+      },
+      {
+        "path": "../realworld-idl/idl/domain/comments.idl",
+        "sha256": "623e88faa816f89ade396119dc4c151114018d3a28d78e43ddc500f0a5ef84c8"
+      },
+      {
+        "path": "../realworld-idl/idl/domain/users.idl",
+        "sha256": "78faa1aeaad07d5039efe625e89e495797120978cbc0b33530ec2aa78b15c847"
+      },
+      {
+        "path": "../realworld-idl/idl/events/events.idl",
+        "sha256": "be2f1f73de9462330a62f24efb8e5c05908eb3b862b3cbae767cae1b03ce679a"
+      },
+      {
+        "path": "../realworld-idl/idl/operations/operations.idl",
+        "sha256": "0cddb964e2ee0bc5bb339835caa0b1adc5328e6ae617ab9fa47d7033007913da"
+      },
+      {
+        "path": "../realworld-idl/idl/platform/runtime-coverage.idl",
+        "sha256": "af5a6663c4d2737a43704fec0df7c2dd6746fe75dee950a98d4130930863fcbe"
+      },
+      {
+        "path": "../realworld-idl/idl/policy/decisions.idl",
+        "sha256": "c02a693be1a4a51b3c4b471ff1096f65f77e4d67c609eebca467f79d2bf14310"
+      },
+      {
+        "path": "../realworld-idl/idl/protocol/api.idl",
+        "sha256": "00cf41bcdee8a64b34d1f368b97613a33b444c22c3dfc4d1a83ee6451c4f287c"
+      },
+      {
+        "path": "../realworld-idl/idl/rules/rules.idl",
+        "sha256": "ad0f81ee09ffa421067ccd44ec0c6a08a9da851087b22a3634732367b50de6b9"
+      },
+      {
+        "path": "../realworld-idl/idl/state/state-machines.idl",
+        "sha256": "1d3c88a58e7da881105b07ba6db3273c9af0c28dc41ff12339ea72a2eb648a15"
+      },
+      {
+        "path": "../realworld-idl/idl/ux/components.idl",
+        "sha256": "14a4046078e1a6c99892affb43a1f4e4a7afdb6d910dc0c7ab86cdb5607f7cb6"
+      },
+      {
+        "path": "../realworld-idl/idl/ux/flows.idl",
+        "sha256": "8315191ed45a48d1d389293c4246dcb6e4f2f440561b7d0dbcd699a8dfef556f"
+      },
+      {
+        "path": "../realworld-idl/idl/verification/verification.idl",
+        "sha256": "6d9cfcddea281473e8cfb535494823353077269436381e748516bf9dae68c2e8"
+      }
+    ]
+  },
+  "generated": {
+    "outdir": "../realworld/generated/app-react-spa",
+    "files": [
+      {
+        "path": ".gitignore",
+        "sha256": "12be9b277c9b7ddc2b49d988c5511c2ce385d78955e40a67019706eb82682bae"
+      },
+      {
+        "path": "acceptance/acceptance.mjs",
+        "sha256": "a022c3c803d285e3de8e82b2dd8406f8dffd2f007bfd7a86ab6da8aa9e812960"
+      },
+      {
+        "path": "index.html",
+        "sha256": "ea23d8571afdc950a84d34f2f89f4e02c7df33907da91f5a51a76d5a289e19ac"
+      },
+      {
+        "path": "package.json",
+        "sha256": "dda9e4ee748f86b0b692f6a1747090670aaa45828cc6eed22ce63caf771a0b5e"
+      },
+      {
+        "path": "README.md",
+        "sha256": "46fe75e443524f983a2e75ac1c356a52593de76f86e515d3ebd4a525080db747"
+      },
+      {
+        "path": "src/api/client.ts",
+        "sha256": "f9270b0f47bdf139d1c2ba1cf533ee6c4dafc3f3239f91bc09fd370f90454711"
+      },
+      {
+        "path": "src/App.tsx",
+        "sha256": "f6f567eacb06f26cf1e95f326f8cdbc239b9231597e0b9bbec9bd31ac64efecc"
+      },
+      {
+        "path": "src/components/ArticlePreview.tsx",
+        "sha256": "6ec294cb8a0fdf731583ef2bb4b4766bc214d3b7fe87bcf72081ca5d0d7e1c26"
+      },
+      {
+        "path": "src/components/TagList.tsx",
+        "sha256": "7ff561a9138d5b4c8a9181a7be05c0288310f92fa46e2fe6d435c7831f22109f"
+      },
+      {
+        "path": "src/main.tsx",
+        "sha256": "4b5dd01583549d6ec3ae8cc53a5b44bb47f7ad43d7976a41f9c1b3085fd15562"
+      },
+      {
+        "path": "src/pages/CreateArticlePage.tsx",
+        "sha256": "7fad3d26be3139565ba43113818e9316502c5a60e183e682e686ff70d16c5bc5"
+      },
+      {
+        "path": "src/pages/EditArticlePage.tsx",
+        "sha256": "ff5e8493e2994f1fe178fe62e560585ace77cf9266cd6550dc3a375b97e28ac2"
+      },
+      {
+        "path": "src/pages/FeedPage.tsx",
+        "sha256": "f9d906226dab58cbe12e19c75e5bd3325b8f36983557271382e8aed37f8c754d"
+      },
+      {
+        "path": "src/pages/LoginPage.tsx",
+        "sha256": "9512b88fca2db5612b94d3c2160bb8d3b31e4c9f7482edfe526a78b08b78bf5b"
+      },
+      {
+        "path": "src/pages/RegisterPage.tsx",
+        "sha256": "b01cb5bfdca8c769fe4b2a3c6a504f93068beae42488d2bfc199c31c2b681a59"
+      },
+      {
+        "path": "src/pages/SettingsPage.tsx",
+        "sha256": "d5789cd412299a9c469425fcac1a9e12f17fb454efcd823a291d354bbbf738a3"
+      },
+      {
+        "path": "src/pages/ViewArticlePage.tsx",
+        "sha256": "700b0f84215e6f55ae32b8c2ef5665a176707a41a131a110ab64bb686c1e60a5"
+      },
+      {
+        "path": "src/pages/ViewProfilePage.tsx",
+        "sha256": "4aa9d696d16e8ba1206a361d29c5585c24f77e4039465de65a1473591971a0e5"
+      },
+      {
+        "path": "src/pages/YourFeedPage.tsx",
+        "sha256": "0e3e18010deef1acd4e15b9e57a847b581741c291c8f76849bcb1a9954b216e3"
+      },
+      {
+        "path": "src/types.ts",
+        "sha256": "ee7715a36fcac51868cd9ce43674a73191782bdbb0d30908628fc852855ea2e1"
+      },
+      {
+        "path": "tsconfig.json",
+        "sha256": "84def8fa459126c50cd5665310a748063cf68af5de6092e4f6220231ec3b87f3"
+      },
+      {
+        "path": "tsconfig.node.json",
+        "sha256": "695e4d5f0fa7bbe8a4cea67ea93f23f226521415073e2d8da1d68ad19548a35b"
+      },
+      {
+        "path": "vite.config.ts",
+        "sha256": "102a0a718ebe161ec8ef8094b88f6664e2b150818e2430424595bfe28598da88"
+      }
+    ]
+  },
+  "counts": {
+    "documents": 13,
+    "entities": 8,
+    "events": 12,
+    "operations": 19,
+    "apis": 1,
+    "services": 1,
+    "jobs": 0,
+    "mappings": 0,
+    "endpoints": 9,
+    "generatedFiles": 23
+  },
+  "names": {
+    "entities": [
+      "Article",
+      "ArticleTag",
+      "Comment",
+      "Favorite",
+      "Follow",
+      "Profile",
+      "Tag",
+      "User"
+    ],
+    "events": [
+      "ArticleCreated",
+      "ArticleDeleted",
+      "ArticleFavorited",
+      "ArticleUnfavorited",
+      "ArticleUpdated",
+      "CommentCreated",
+      "CommentDeleted",
+      "UserFollowed",
+      "UserLoggedIn",
+      "UserRegistered",
+      "UserUnfollowed",
+      "UserUpdated"
+    ],
+    "operations": [
+      "CreateArticle",
+      "CreateComment",
+      "DeleteArticle",
+      "DeleteComment",
+      "FavoriteArticle",
+      "FollowUser",
+      "GetArticle",
+      "GetArticleComments",
+      "GetArticlesFeed",
+      "GetCurrentUser",
+      "GetProfile",
+      "GetTags",
+      "ListArticles",
+      "LoginUser",
+      "RegisterUser",
+      "UnfavoriteArticle",
+      "UnfollowUser",
+      "UpdateArticle",
+      "UpdateCurrentUser"
+    ],
+    "apis": [
+      "ConduitAPI"
+    ],
+    "services": [
+      "ConduitRestApi"
+    ],
+    "jobs": [],
+    "mappings": [],
+    "endpoints": [
+      "ArticlePublishingFlow",
+      "CreateArticle",
+      "EditArticle",
+      "Feed",
+      "Login",
+      "Register",
+      "Settings",
+      "ViewArticle",
+      "ViewProfile",
+      "YourFeed"
+    ]
+  }
+}
